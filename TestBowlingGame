@@ -5,7 +5,7 @@ class TestBowlingGame(unittest.TestCase):
 
 
     def setUp(self):
-        self.game = BowlingGame.BowlingGame()
+        self.game = Game.Game()
 
     def testGutterGame(self):
         self.rollMany(0, 20)
