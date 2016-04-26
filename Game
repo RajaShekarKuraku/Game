@@ -1,5 +1,5 @@
 maxRolls = 21
-class BowlingGame:
+class Game:
     def __init__(self):
         self.rolls = []
 
